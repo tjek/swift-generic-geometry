@@ -1,0 +1,29 @@
+name: GenericGeometry
+options:
+  bundleIdPrefix: com.shopgun
+  deploymentTarget:
+    iOS: 8.0
+    macOS: 10.9
+    tvOS: 9.0
+    watchOS: 2.0
+  indentWidth: 2
+  tabWidth: 2
+  usesTabs: false
+targets:
+  GenericGeometry:
+    platform: [macOS, iOS, tvOS, watchOS]
+    scheme:
+      testTargets: ['GenericGeometryTests_${platform}']
+    settings:
+      SWIFT_VERSION: 5.0
+    sources: [Sources]
+    type: framework
+  GenericGeometryTests:
+    dependencies: [{target: 'GenericGeometry_${platform}'}]
+    platform: [macOS, iOS, tvOS, watchOS]
+    settings:
+      SWIFT_VERSION: 5.0
+    sources:
+      - path: Tests
+    type: bundle.unit-test
+    
