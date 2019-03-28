@@ -10,20 +10,44 @@ options:
   tabWidth: 2
   usesTabs: false
 targets:
+  GenericGeometry_macOS:
+    platform: macOS
+    scheme:
+      testTargets: ['GenericGeometryTests_macOS']
+    settings:
+      SWIFT_VERSION: 5.0
+    sources: 
+      - path: Sources
+        excludes: 
+        - 'UIKit'
+    type: framework
+
   GenericGeometry:
-    platform: [macOS, iOS, tvOS, watchOS]
+    platform: [iOS, tvOS, watchOS]
     scheme:
       testTargets: ['GenericGeometryTests_${platform}']
     settings:
       SWIFT_VERSION: 5.0
-    sources: [Sources]
+    sources: 
+      - path: Sources
     type: framework
+    
+  GenericGeometryTests_macOS:
+    dependencies: [{target: 'GenericGeometry_macOS'}]
+    platform: macOS
+    settings:
+      SWIFT_VERSION: 5.0
+    sources:
+      - path: Tests
+        excludes: 
+        - 'UIKit'
+    type: bundle.unit-test
+
   GenericGeometryTests:
     dependencies: [{target: 'GenericGeometry_${platform}'}]
-    platform: [macOS, iOS, tvOS, watchOS]
+    platform: [iOS, tvOS, watchOS]
     settings:
       SWIFT_VERSION: 5.0
     sources:
       - path: Tests
     type: bundle.unit-test
-    

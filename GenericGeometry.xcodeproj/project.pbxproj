@@ -8,25 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		01420E44EFE5BA9DD1970753D8F0363D /* GenericGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00F29924176FE06E644D9326469B203 /* GenericGeometry.swift */; };
+		0723540DE60EE5D28D50C01B621BE95B /* GenericGeometryUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC9BDE5BB58BAA4ABA0226FDD81B395 /* GenericGeometryUIKitTests.swift */; };
 		0C43DFAAAC334767684A26EF96BBCD1B /* GenericGeometry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 403CD082D6085E3FBE8FBEED452CE9A4 /* GenericGeometry.framework */; };
+		0E7A37808D439DBA669F718CF023F992 /* GenericGeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F331981EB4926A492E04B7FA2B914B7C /* GenericGeometryTests.swift */; };
 		28893CA5C4FC7DB49A307B058F70BDF4 /* GenericGeometry+CoreGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC09BF2DFCA411632D9F01380DE4125 /* GenericGeometry+CoreGraphics.swift */; };
 		3986375DEDDB4610F39968FF98CE6EF5 /* GenericGeometry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BD01A777B6FCA2985F9FE856C5B098A6 /* GenericGeometry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39A8E5D40784215088FF661148ABFB25 /* GenericGeometry+CoreGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC09BF2DFCA411632D9F01380DE4125 /* GenericGeometry+CoreGraphics.swift */; };
+		3A48943018AD67CB2A121989A55BE48E /* GenericGeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F331981EB4926A492E04B7FA2B914B7C /* GenericGeometryTests.swift */; };
 		3C12DD66917AFEAD27B27E57A4196C26 /* GenericGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00F29924176FE06E644D9326469B203 /* GenericGeometry.swift */; };
-		3E5127041841F65BBDF08074820F71B6 /* GenericGeometry+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C9632F22FC42759F3E82185C862F7 /* GenericGeometry+UIKit.swift */; };
-		43E3896AC7C7D51C77CAD82341ADCC89 /* GenericGeometry+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C9632F22FC42759F3E82185C862F7 /* GenericGeometry+UIKit.swift */; };
+		3CC4A238F583E02F62A609A5183EAE22 /* GenericGeometry+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C529F06ADF581CCA5C1E65B18CDC095 /* GenericGeometry+UIKit.swift */; };
 		4980C6BD7B9764BF335DF37A435B08EB /* GenericGeometry+CoreGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC09BF2DFCA411632D9F01380DE4125 /* GenericGeometry+CoreGraphics.swift */; };
 		4B465A53F3022DEBF21151A15DA2DCAB /* GenericGeometry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0B3DD3814B9D55502658650A8AD72FA /* GenericGeometry.framework */; };
-		637B695A2E26C02A604411B2EAD9C130 /* GenericGeometry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0574736A7BDD48A183027205679CD043 /* GenericGeometry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6B6D979905D3E1A1D3067C8DE6634E25 /* GenericGeometry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0574736A7BDD48A183027205679CD043 /* GenericGeometry.framework */; };
-		8425EE4D2AFC3D49495C89D5FE0AD9F8 /* GenericGeometry+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C9632F22FC42759F3E82185C862F7 /* GenericGeometry+UIKit.swift */; };
+		59BCAA31CF8E3CB490BF7B32EB585D06 /* GenericGeometry+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C529F06ADF581CCA5C1E65B18CDC095 /* GenericGeometry+UIKit.swift */; };
+		5AF8713F1C9A5DC3B0916C29A42C92D2 /* GenericGeometryUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC9BDE5BB58BAA4ABA0226FDD81B395 /* GenericGeometryUIKitTests.swift */; };
+		6946689EBB475C7DE6B065B798036ADF /* GenericGeometry+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C529F06ADF581CCA5C1E65B18CDC095 /* GenericGeometry+UIKit.swift */; };
+		6F065CE183934CB85DD93460C08AAB37 /* GenericGeometry_macOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 04136741DABD4D0BF751EED3AAF68BF6 /* GenericGeometry_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7A74D8439C156E45FF6C16950B7EE384 /* GenericGeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F331981EB4926A492E04B7FA2B914B7C /* GenericGeometryTests.swift */; };
+		90B6F3380CFCBC77810E2ABE65564CD2 /* GenericGeometryUIKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC9BDE5BB58BAA4ABA0226FDD81B395 /* GenericGeometryUIKitTests.swift */; };
 		9509CD5D02A107A7B35587A3F3AB9E97 /* GenericGeometry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E0B3DD3814B9D55502658650A8AD72FA /* GenericGeometry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9A50C1D14BDE84E3CDFE400772A0DD19 /* GenericGeometry.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 403CD082D6085E3FBE8FBEED452CE9A4 /* GenericGeometry.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		9F8524A674695F074500FAB0934C63B5 /* GenericGeometry+CoreGraphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC09BF2DFCA411632D9F01380DE4125 /* GenericGeometry+CoreGraphics.swift */; };
+		B8CDE58AD4FB2ED21791B099BB6B1034 /* GenericGeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F331981EB4926A492E04B7FA2B914B7C /* GenericGeometryTests.swift */; };
 		BF31E699E10D36199618B04DBD2C4D27 /* GenericGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00F29924176FE06E644D9326469B203 /* GenericGeometry.swift */; };
 		C48E31F29DF6F2D6ABD8FC5523CA4E16 /* GenericGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00F29924176FE06E644D9326469B203 /* GenericGeometry.swift */; };
 		DC021889AB6A686B88D16102779A79F4 /* GenericGeometry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD01A777B6FCA2985F9FE856C5B098A6 /* GenericGeometry.framework */; };
-		E651A0562B2839E07A4DA60D221AB28C /* GenericGeometry+UIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541C9632F22FC42759F3E82185C862F7 /* GenericGeometry+UIKit.swift */; };
+		EC28E8095F64356631EB286E936A0E01 /* GenericGeometry_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04136741DABD4D0BF751EED3AAF68BF6 /* GenericGeometry_macOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +73,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				637B695A2E26C02A604411B2EAD9C130 /* GenericGeometry.framework in Embed Frameworks */,
+				6F065CE183934CB85DD93460C08AAB37 /* GenericGeometry_macOS.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -108,17 +114,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0574736A7BDD48A183027205679CD043 /* GenericGeometry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GenericGeometry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04136741DABD4D0BF751EED3AAF68BF6 /* GenericGeometry_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GenericGeometry_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A35F2A9F37745FD6C4E0F8AAB5DEB0F /* GenericGeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericGeometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		403CD082D6085E3FBE8FBEED452CE9A4 /* GenericGeometry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GenericGeometry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		541C9632F22FC42759F3E82185C862F7 /* GenericGeometry+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GenericGeometry+UIKit.swift"; sourceTree = "<group>"; };
+		4C529F06ADF581CCA5C1E65B18CDC095 /* GenericGeometry+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GenericGeometry+UIKit.swift"; sourceTree = "<group>"; };
 		71994A596123B2BAFC9B9344F4F0DA58 /* GenericGeometryTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GenericGeometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DC0B99EB90A379FF7BC0ED6949D4B80 /* GenericGeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericGeometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8176B3879A580671623D845EE37BD786 /* GenericGeometryTests_macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericGeometryTests_macOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D5BC539E5D97A6C5493CCC4B83A770 /* GenericGeometryTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GenericGeometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FC9BDE5BB58BAA4ABA0226FDD81B395 /* GenericGeometryUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericGeometryUIKitTests.swift; sourceTree = "<group>"; };
 		BD01A777B6FCA2985F9FE856C5B098A6 /* GenericGeometry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GenericGeometry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC09BF2DFCA411632D9F01380DE4125 /* GenericGeometry+CoreGraphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GenericGeometry+CoreGraphics.swift"; sourceTree = "<group>"; };
 		E0B3DD3814B9D55502658650A8AD72FA /* GenericGeometry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GenericGeometry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F00F29924176FE06E644D9326469B203 /* GenericGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericGeometry.swift; sourceTree = "<group>"; };
+		F331981EB4926A492E04B7FA2B914B7C /* GenericGeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericGeometryTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B6D979905D3E1A1D3067C8DE6634E25 /* GenericGeometry.framework in Frameworks */,
+				EC28E8095F64356631EB286E936A0E01 /* GenericGeometry_macOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,9 +177,19 @@
 			tabWidth = 2;
 			usesTabs = 0;
 		};
+		214A866C956C25B934B7719D3E9C86FB /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				4C529F06ADF581CCA5C1E65B18CDC095 /* GenericGeometry+UIKit.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		9F75D136374BAABE9FE0E81BD1C118AD /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				F331981EB4926A492E04B7FA2B914B7C /* GenericGeometryTests.swift */,
+				D3A8A32EF600916DFE8FF377A3EB6A8E /* UIKit */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -179,12 +197,12 @@
 		BCBE42F0F5BC8BC710D05ACBE5234A3D /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				04136741DABD4D0BF751EED3AAF68BF6 /* GenericGeometry_macOS.framework */,
 				E0B3DD3814B9D55502658650A8AD72FA /* GenericGeometry.framework */,
-				0574736A7BDD48A183027205679CD043 /* GenericGeometry.framework */,
 				BD01A777B6FCA2985F9FE856C5B098A6 /* GenericGeometry.framework */,
 				403CD082D6085E3FBE8FBEED452CE9A4 /* GenericGeometry.framework */,
+				8176B3879A580671623D845EE37BD786 /* GenericGeometryTests_macOS.xctest */,
 				83D5BC539E5D97A6C5493CCC4B83A770 /* GenericGeometryTests.xctest */,
-				7DC0B99EB90A379FF7BC0ED6949D4B80 /* GenericGeometryTests.xctest */,
 				71994A596123B2BAFC9B9344F4F0DA58 /* GenericGeometryTests.xctest */,
 				1A35F2A9F37745FD6C4E0F8AAB5DEB0F /* GenericGeometryTests.xctest */,
 			);
@@ -196,9 +214,17 @@
 			children = (
 				F00F29924176FE06E644D9326469B203 /* GenericGeometry.swift */,
 				DFC09BF2DFCA411632D9F01380DE4125 /* GenericGeometry+CoreGraphics.swift */,
-				541C9632F22FC42759F3E82185C862F7 /* GenericGeometry+UIKit.swift */,
+				214A866C956C25B934B7719D3E9C86FB /* UIKit */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		D3A8A32EF600916DFE8FF377A3EB6A8E /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				8FC9BDE5BB58BAA4ABA0226FDD81B395 /* GenericGeometryUIKitTests.swift */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +311,7 @@
 			);
 			name = GenericGeometry_macOS;
 			productName = GenericGeometry_macOS;
-			productReference = 0574736A7BDD48A183027205679CD043 /* GenericGeometry.framework */;
+			productReference = 04136741DABD4D0BF751EED3AAF68BF6 /* GenericGeometry_macOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A664DF5252DAC3AFC6F6EDC755FA0192 /* GenericGeometry_watchOS */ = {
@@ -318,7 +344,7 @@
 			);
 			name = GenericGeometryTests_macOS;
 			productName = GenericGeometryTests_macOS;
-			productReference = 7DC0B99EB90A379FF7BC0ED6949D4B80 /* GenericGeometryTests.xctest */;
+			productReference = 8176B3879A580671623D845EE37BD786 /* GenericGeometryTests_macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		BE44C8A54790E5A0A0CC02E0E70DD952 /* GenericGeometry_tvOS */ = {
@@ -373,7 +399,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4980C6BD7B9764BF335DF37A435B08EB /* GenericGeometry+CoreGraphics.swift in Sources */,
-				3E5127041841F65BBDF08074820F71B6 /* GenericGeometry+UIKit.swift in Sources */,
+				3CC4A238F583E02F62A609A5183EAE22 /* GenericGeometry+UIKit.swift in Sources */,
 				01420E44EFE5BA9DD1970753D8F0363D /* GenericGeometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +408,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7A37808D439DBA669F718CF023F992 /* GenericGeometryTests.swift in Sources */,
+				5AF8713F1C9A5DC3B0916C29A42C92D2 /* GenericGeometryUIKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,7 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F8524A674695F074500FAB0934C63B5 /* GenericGeometry+CoreGraphics.swift in Sources */,
-				8425EE4D2AFC3D49495C89D5FE0AD9F8 /* GenericGeometry+UIKit.swift in Sources */,
+				6946689EBB475C7DE6B065B798036ADF /* GenericGeometry+UIKit.swift in Sources */,
 				C48E31F29DF6F2D6ABD8FC5523CA4E16 /* GenericGeometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,7 +428,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				28893CA5C4FC7DB49A307B058F70BDF4 /* GenericGeometry+CoreGraphics.swift in Sources */,
-				43E3896AC7C7D51C77CAD82341ADCC89 /* GenericGeometry+UIKit.swift in Sources */,
 				BF31E699E10D36199618B04DBD2C4D27 /* GenericGeometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,7 +437,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				39A8E5D40784215088FF661148ABFB25 /* GenericGeometry+CoreGraphics.swift in Sources */,
-				E651A0562B2839E07A4DA60D221AB28C /* GenericGeometry+UIKit.swift in Sources */,
+				59BCAA31CF8E3CB490BF7B32EB585D06 /* GenericGeometry+UIKit.swift in Sources */,
 				3C12DD66917AFEAD27B27E57A4196C26 /* GenericGeometry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +446,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8CDE58AD4FB2ED21791B099BB6B1034 /* GenericGeometryTests.swift in Sources */,
+				90B6F3380CFCBC77810E2ABE65564CD2 /* GenericGeometryUIKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +455,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A48943018AD67CB2A121989A55BE48E /* GenericGeometryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +463,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A74D8439C156E45FF6C16950B7EE384 /* GenericGeometryTests.swift in Sources */,
+				0723540DE60EE5D28D50C01B621BE95B /* GenericGeometryUIKitTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,7 +555,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shopgun.GenericGeometryTests-macOS";
-				PRODUCT_NAME = GenericGeometryTests;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -802,7 +833,6 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shopgun.GenericGeometryTests-macOS";
-				PRODUCT_NAME = GenericGeometryTests;
 				SDKROOT = macosx;
 				SWIFT_VERSION = 5.0;
 			};
@@ -821,7 +851,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shopgun.GenericGeometry-macOS";
-				PRODUCT_NAME = GenericGeometry;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
@@ -842,7 +871,6 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shopgun.GenericGeometry-macOS";
-				PRODUCT_NAME = GenericGeometry;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
