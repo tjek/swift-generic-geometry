@@ -6,9 +6,6 @@ options:
     macOS: 10.9
     tvOS: 9.0
     watchOS: 2.0
-  indentWidth: 2
-  tabWidth: 2
-  usesTabs: false
 targets:
   GenericGeometry_macOS:
     platform: macOS

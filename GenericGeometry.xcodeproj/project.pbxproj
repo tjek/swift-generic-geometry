@@ -172,10 +172,7 @@
 				9F75D136374BAABE9FE0E81BD1C118AD /* Tests */,
 				BCBE42F0F5BC8BC710D05ACBE5234A3D /* Products */,
 			);
-			indentWidth = 2;
 			sourceTree = "<group>";
-			tabWidth = 2;
-			usesTabs = 0;
 		};
 		214A866C956C25B934B7719D3E9C86FB /* UIKit */ = {
 			isa = PBXGroup;
