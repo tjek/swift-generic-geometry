@@ -4,5 +4,5 @@ before_install:
 - gem install xcpretty
 - gem install cocoapods
 script: 
-- xcodebuild -scheme GenericGeometry_iOS -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X' test | xcpretty --test --color
+- xcodebuild -scheme GenericGeometry_iOS -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone X' test
 - pod lib lint --allow-warnings
