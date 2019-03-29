@@ -5,7 +5,7 @@
 //  └────┴─┴─┴───┤ ┌─┴─────┴───┴─┴─┘
 //               └─┘
 //
-//  Copyright (c) 2018 ShopGun. All rights reserved.
+//  Copyright (c) 2019 ShopGun. All rights reserved.
 
 import CoreGraphics
 

@@ -7,44 +7,22 @@ options:
     tvOS: 9.0
     watchOS: 2.0
 targets:
-  GenericGeometry_macOS:
-    platform: macOS
-    scheme:
-      testTargets: ['GenericGeometryTests_macOS']
-    settings:
-      SWIFT_VERSION: 5.0
-    sources: 
-      - path: Sources
-        excludes: 
-        - 'UIKit'
-    type: framework
-
   GenericGeometry:
-    platform: [iOS, tvOS, watchOS]
+    platform: [iOS, tvOS, watchOS, macOS]
+    type: framework
     scheme:
+      gatherCoverageData: true
       testTargets: ['GenericGeometryTests_${platform}']
     settings:
       SWIFT_VERSION: 5.0
     sources: 
       - path: Sources
-    type: framework
-    
-  GenericGeometryTests_macOS:
-    dependencies: [{target: 'GenericGeometry_macOS'}]
-    platform: macOS
-    settings:
-      SWIFT_VERSION: 5.0
-    sources:
-      - path: Tests
-        excludes: 
-        - 'UIKit'
-    type: bundle.unit-test
 
   GenericGeometryTests:
+    platform: [iOS, tvOS, watchOS, macOS]
+    type: bundle.unit-test
     dependencies: [{target: 'GenericGeometry_${platform}'}]
-    platform: [iOS, tvOS, watchOS]
     settings:
       SWIFT_VERSION: 5.0
     sources:
       - path: Tests
-    type: bundle.unit-test

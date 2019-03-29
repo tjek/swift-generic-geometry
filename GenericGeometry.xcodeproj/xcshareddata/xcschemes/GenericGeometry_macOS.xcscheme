@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "825DAAFE94C7F9FB0C978B7647DC0F1F"
-               BuildableName = "GenericGeometry_macOS.framework"
+               BuildableName = "GenericGeometry.framework"
                BlueprintName = "GenericGeometry_macOS"
                ReferencedContainer = "container:GenericGeometry.xcodeproj">
             </BuildableReference>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
          <TestableReference
@@ -33,7 +34,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AE190050EBE7B3A8285B6B93FE327EB8"
-               BuildableName = "GenericGeometryTests_macOS.xctest"
+               BuildableName = "GenericGeometryTests.xctest"
                BlueprintName = "GenericGeometryTests_macOS"
                ReferencedContainer = "container:GenericGeometry.xcodeproj">
             </BuildableReference>
@@ -43,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "825DAAFE94C7F9FB0C978B7647DC0F1F"
-            BuildableName = "GenericGeometry_macOS.framework"
+            BuildableName = "GenericGeometry.framework"
             BlueprintName = "GenericGeometry_macOS"
             ReferencedContainer = "container:GenericGeometry.xcodeproj">
          </BuildableReference>
@@ -67,7 +68,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "825DAAFE94C7F9FB0C978B7647DC0F1F"
-            BuildableName = "GenericGeometry_macOS.framework"
+            BuildableName = "GenericGeometry.framework"
             BlueprintName = "GenericGeometry_macOS"
             ReferencedContainer = "container:GenericGeometry.xcodeproj">
          </BuildableReference>
@@ -88,7 +89,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "825DAAFE94C7F9FB0C978B7647DC0F1F"
-            BuildableName = "GenericGeometry_macOS.framework"
+            BuildableName = "GenericGeometry.framework"
             BlueprintName = "GenericGeometry_macOS"
             ReferencedContainer = "container:GenericGeometry.xcodeproj">
          </BuildableReference>

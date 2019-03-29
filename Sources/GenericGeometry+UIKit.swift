@@ -5,12 +5,14 @@
 //  └────┴─┴─┴───┤ ┌─┴─────┴───┴─┴─┘
 //               └─┘
 //
-//  Copyright (c) 2018 ShopGun. All rights reserved.
+//  Copyright (c) 2019 ShopGun. All rights reserved.
+
+#if canImport(UIKit)
 
 import UIKit
 
 extension Edges where Value: BinaryFloatingPoint {
-    var uiEdgeInsets: UIEdgeInsets {
+    public var uiEdgeInsets: UIEdgeInsets {
         return UIEdgeInsets(
             top: CGFloat(top),
             left: CGFloat(left),
@@ -20,7 +22,7 @@ extension Edges where Value: BinaryFloatingPoint {
     }
 }
 extension Edges where Value: BinaryInteger {
-    var uiEdgeInsets: UIEdgeInsets {
+    public var uiEdgeInsets: UIEdgeInsets {
         return UIEdgeInsets(
             top: CGFloat(top),
             left: CGFloat(left),
@@ -29,3 +31,5 @@ extension Edges where Value: BinaryInteger {
         )
     }
 }
+
+#endif
