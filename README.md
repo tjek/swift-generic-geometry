@@ -1,5 +1,10 @@
 # 📐 Generic Geometry
 
+[![Swift 5](https://img.shields.io/badge/swift-5-ED523F.svg?style=flat)](https://swift.org/download/)
+[![Build Status](https://travis-ci.com/shopgun/swift-generic-geometry.svg?branch=master)](https://travis-ci.com/shopgun/swift-generic-geometry)
+[![Cocoapods](https://img.shields.io/cocoapods/v/shopgun-genericgeometry.svg)](http://cocoapods.org/pods/ShopGun-GenericGeometry)
+[![License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
+
 A library for defining geometry of arbitrary, generic dimensions.
 
 Includes the following types:
