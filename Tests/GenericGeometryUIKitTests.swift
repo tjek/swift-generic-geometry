@@ -21,6 +21,8 @@ class GenericGeometryUIKitTests: XCTestCase {
         let edgeInsetsFlt: UIEdgeInsets = Edges<Double>(top: 1.5, left: 2.5, bottom: 3.5, right: 4.5).uiEdgeInsets
         
         XCTAssertEqual(edgeInsetsFlt, UIEdgeInsets(top: 1.5, left: 2.5, bottom: 3.5, right: 4.5))
+        
+        XCTAssertTrue(false)
     }
 
 }
