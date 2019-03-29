@@ -3,7 +3,6 @@ osx_image: xcode10.2
 before_install: 
 - gem install xcpretty
 - gem install cocoapods
-- pod repo update
 script: 
 - swift test 2>&1 | xcpretty
-- pod lib lint --verbose
+- pod lib lint --allow-warnings
