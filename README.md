@@ -2,7 +2,7 @@
 
 [![Swift 5](https://img.shields.io/badge/swift-5-ED523F.svg?style=flat)](https://swift.org/download/)
 [![Build Status](https://travis-ci.com/shopgun/swift-generic-geometry.svg?branch=master)](https://travis-ci.com/shopgun/swift-generic-geometry)
-[![Cocoapods](https://img.shields.io/cocoapods/v/shopgun-genericgeometry.svg)](http://cocoapods.org/pods/ShopGun-GenericGeometry)
+[![Cocoapods](https://img.shields.io/cocoapods/v/ShopGun-GenericGeometry.svg)](http://cocoapods.org/pods/ShopGun-GenericGeometry)
 [![License](http://img.shields.io/badge/license-MIT-brightgreen.svg)](LICENSE.md)
 
 Did you ever need to make a CGSize that didn't contain CGFloats? What about a Point of enum values? Edges where some values are optional? 
