@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name = "ShopGun-GenericGeometry"
   s.module_name = "GenericGeometry"
-  s.version = "0.1.0"
+  s.version = "0.2.0"
   s.summary = "📐 A library for defining geometry of generic dimensions"
 
   s.description = <<-DESC

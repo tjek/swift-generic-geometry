@@ -119,6 +119,7 @@
 		0574736A7BDD48A183027205679CD043 /* GenericGeometry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GenericGeometry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		084090FDD95EC6A2D1DEEE75AD683EB5 /* GenericGeometryUIKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericGeometryUIKitTests.swift; sourceTree = "<group>"; };
 		1A35F2A9F37745FD6C4E0F8AAB5DEB0F /* GenericGeometryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GenericGeometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E61D7FAF10621432EA2162274FC8B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		403CD082D6085E3FBE8FBEED452CE9A4 /* GenericGeometry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GenericGeometry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		541C9632F22FC42759F3E82185C862F7 /* GenericGeometry+UIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GenericGeometry+UIKit.swift"; sourceTree = "<group>"; };
 		71994A596123B2BAFC9B9344F4F0DA58 /* GenericGeometryTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = GenericGeometryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,6 +207,7 @@
 				F00F29924176FE06E644D9326469B203 /* GenericGeometry.swift */,
 				DFC09BF2DFCA411632D9F01380DE4125 /* GenericGeometry+CoreGraphics.swift */,
 				541C9632F22FC42759F3E82185C862F7 /* GenericGeometry+UIKit.swift */,
+				3E61D7FAF10621432EA2162274FC8B2C /* Info.plist */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -488,6 +490,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shopgun.GenericGeometry-watchOS";
 				PRODUCT_NAME = GenericGeometry;
@@ -508,6 +511,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shopgun.GenericGeometry-iOS";
@@ -724,6 +728,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shopgun.GenericGeometry-tvOS";
@@ -745,6 +750,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shopgun.GenericGeometry-tvOS";
@@ -766,6 +772,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shopgun.GenericGeometry-iOS";
@@ -787,6 +794,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shopgun.GenericGeometry-watchOS";
 				PRODUCT_NAME = GenericGeometry;
@@ -835,6 +843,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shopgun.GenericGeometry-macOS";
@@ -856,6 +865,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.shopgun.GenericGeometry-macOS";
