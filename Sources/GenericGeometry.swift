@@ -294,6 +294,31 @@ extension Rect where Value: Numeric {
                                y: origin.y + size.height)
         )
     }
+    
+    public var minX: Value {
+        return origin.x
+    }
+    public var minY: Value {
+        return origin.y
+    }
+    public var maxX: Value {
+        return origin.x + size.width
+    }
+    public var maxY: Value {
+        return origin.y + size.height
+    }
+}
+
+extension Rect where Value: FloatingPoint {
+    public var midX: Value {
+        return (minX + maxX) / 2
+    }
+    public var midY: Value {
+        return (minY + maxY) / 2
+    }
+    public var center: Point<Value> {
+        return Point(x: midX, y: midY)
+    }
 }
 
 extension Rect where Value: Numeric {
